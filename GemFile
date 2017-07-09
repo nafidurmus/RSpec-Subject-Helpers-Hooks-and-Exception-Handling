@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "rspec"
+
+group :test do
+  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git'
+end
